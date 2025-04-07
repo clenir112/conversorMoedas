@@ -1,0 +1,88 @@
+body {
+    background-image: url(https://conteudo.imguol.com.br/c/entretenimento/80/2017/04/25/a-atriz-zoe-saldana-como-neytiri-em-avatar-1493136439818_v2_900x506.jpg);
+    background-size: cover; /* Ajusta o tamanho para cobrir a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição */
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+  }
+/*Texto Titulo*/
+body h2 {
+  color: wheat;
+  font-size: 2.0rem;
+  font-family: cursive;
+  
+    
+
+}  
+/*Texto Frase*/
+body p {
+  color: wheat;
+  font-size: 1.0rem;
+  font-family: cursive;
+ 
+  
+}
+/*botão*/
+body button {
+  background-color: #e4cd04;
+  color: #000;
+}
+
+/*Logo Styles*/
+  .logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 150px;
+    width: auto;
+  }
+  
+  /* Container with the background image */
+  .container {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+  }
+  
+  /* Content div for text and button */
+  .content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 8px;
+    margin-top: 220px;
+  }
+  
+  .content h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #ff1b7b;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1ABC9C;
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 10px;
+    color: rgb(164, 218, 231);
+  }
+  
